@@ -10,8 +10,8 @@ Scientific research project for implementation in institutional access control s
 ### Development Branches:
 | Branch | Purpose | Technologies |
 |--------|---------|--------------|
-| **`testingOPENCV`** | Video capture from multiple cameras | OpenCV, FFmpeg, RTSP |
-| **`testingCAMERA`** | Feature extraction and database operations | Dlib, FaceNet, SQLite/PostgreSQL |
-| **`testingBASTION`** | Turnstile control (Bastion X architecture) | Modbus, REST API, MQTT |
+| **`testingOPENCV`** | Video capture from multiple cameras | OpenCV |
+| **`testingCAMERA`** | Feature extraction and database operations | PostgreSQL, extension pgvector |
+| **`testingBASTION`** | Turnstile control (Bastion X architecture) | REST API |
 | **`main`** | Main stable version | Integration of all components |
 
