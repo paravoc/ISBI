@@ -1,17 +1,12 @@
-# ISBI: Information System for Biometric Identification
+# This branch implements the Bastion X architecture for secure access control, turnstile management, and system security protocols.
 
-Software for video capture, facial feature analysis and comparison, access control system management
+## Branch Purpose
+- Turnstile hardware control and communication
 
-## Project Overview
-Scientific research project for implementation in institutional access control systems. The system performs real-time biometric identification from video streams with subsequent turnstile control.
+- Access decision logic and security protocols
 
-## System Architecture
+- Audit logging and system monitoring
 
-### Development Branches:
-| Branch | Purpose | Technologies |
-|--------|---------|--------------|
-| **`testingOPENCV`** | Video capture from multiple cameras | OpenCV |
-| **`testingCAMERA`** | Feature extraction and database operations | PostgreSQL, extension pgvector |
-| **`testingBASTION`** | Turnstile control (Bastion X architecture) | REST API |
-| **`main`** | Main stable version | Integration of all components |
+- Fail-safe mechanisms and emergency procedures
 
+- Network security and encryption
