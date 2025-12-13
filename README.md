@@ -1,17 +1,12 @@
-# ISBI: Information System for Biometric Identification
+# This branch is dedicated to camera integration, video capture
 
-Software for video capture, facial feature analysis and comparison, access control system management
+## Branch Purpose
+- Camera initialization and configuration
 
-## Project Overview
-Scientific research project for implementation in institutional access control systems. The system performs real-time biometric identification from video streams with subsequent turnstile control.
+- Video stream capture from multiple sources
 
-## System Architecture
+- Frame preprocessing and synchronization
 
-### Development Branches:
-| Branch | Purpose | Technologies |
-|--------|---------|--------------|
-| **`testingOPENCV`** | Video capture from multiple cameras | OpenCV |
-| **`testingCAMERA`** | Feature extraction and database operations | PostgreSQL, extension pgvector |
-| **`testingBASTION`** | Turnstile control (Bastion X architecture) | REST API |
-| **`main`** | Main stable version | Integration of all components |
+- Feature extraction algorithm testing
 
+- Database integration for facial templates
