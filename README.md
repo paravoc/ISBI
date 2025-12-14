@@ -13,5 +13,7 @@ Scientific research project for implementation in institutional access control s
 | **`testingOPENCV`** | Video capture from multiple cameras | OpenCV |
 | **`testingCAMERA`** | Feature extraction and database operations | PostgreSQL, extension pgvector |
 | **`testingBASTION`** | Turnstile control (Bastion X architecture) | REST API |
+| **`testingSPUFING`** | Comparative analysis of methods and tools for detecting spoofing attacks | Different methods of protection against spoofing attacks |
 | **`main`** | Main stable version | Integration of all components |
+
 
