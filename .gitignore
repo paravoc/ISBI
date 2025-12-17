@@ -1,0 +1,35 @@
+# .gitignore в КОРНЕВОЙ папке
+
+# ВСЕ тестовые фото и результаты
+**/photos/
+**/output_*/
+
+# Модели нейросетей
+**/*.caffemodel
+**/*.onnx
+**/*.weights
+**/*.prototxt
+
+# Временные файлы
+**/x64/
+**/Debug/
+**/Release/
+**/*.obj
+**/*.pdb
+**/*.exe
+**/*.ilk
+**/*.log
+
+# Системные файлы
+**/.vs/
+**/testing arch.tlog
+**/*.user
+**/*.suo
+**/*.sdf
+**/*.opendb
+
+# Изображения
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.bmp

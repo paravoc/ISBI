@@ -1,0 +1,4 @@
+res/*.caffemodel filter=lfs diff=lfs merge=lfs -text
+res/*.onnx filter=lfs diff=lfs merge=lfs -text
+res/*.weights filter=lfs diff=lfs merge=lfs -text
+res/*.prototxt filter=lfs diff=lfs merge=lfs -text
